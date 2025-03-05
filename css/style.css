@@ -9,6 +9,10 @@
    --secondary: #2563eb;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    font-family: poppins, sans-serif;
    background-color: #f1f5f9;
@@ -266,18 +270,17 @@ li a:hover::after {
 }
 
 .all-page {
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   margin: 6rem 5rem;
-   height: 100vh;
-   color: #f1f5f9;
-   border-radius: 20px;
-   -webkit-border-radius: 20px;
-   -moz-border-radius: 20px;
-   -ms-border-radius: 20px;
-   -o-border-radius: 20px;
    overflow: hidden;
+   flex-direction: column; /* Add this line to make allpage-jdl above pg-pgall */
+}
+
+.allpage-jdl{
+   color: #121212;
+   display: flex;
+   margin-top: 5rem;
+   font-size: 3rem;
+   text-align: center;
+   justify-content: center;
 }
 
 .parent {
@@ -285,8 +288,11 @@ li a:hover::after {
    grid-template-columns: repeat(4, 1fr);
    grid-template-rows: repeat(5, 1fr);
    gap: 8px;
-   width: 100%;
+   width: calc(100% - 8rem);
    height: 100vh;
+   margin: 0 auto 3rem;
+   color: #f1f5f9;
+   border-radius: 20px;
 }
    
 .About-grid {
@@ -298,6 +304,7 @@ li a:hover::after {
    background-position: center;
    background-repeat: no-repeat;
    position: relative;
+   text-decoration: none;
    overflow: hidden;
    transition: all 0.3s ease-in-out;
    -webkit-transition: all 0.3s ease-in-out;
@@ -335,7 +342,7 @@ li a:hover::after {
    line-height: 2.5rem;
    display: flex;
    position: relative;
-   top: 17rem;
+   top: 15rem;
    z-index: 2;
 }
 
@@ -388,7 +395,7 @@ li a:hover::after {
    line-height: 2.5rem;
    display: flex;
    position: relative;
-   top: 30rem;
+   top: 27rem;
    z-index: 2;
 }
 
@@ -443,7 +450,7 @@ li a:hover::after {
    line-height: 2.5rem;
    display: flex;
    position: relative;
-   top: 30rem;
+   top: 27.5rem;
    z-index: 2;
 }
 
@@ -497,7 +504,7 @@ li a:hover::after {
    line-height: 2.5rem;
    display: flex;
    position: relative;
-   top: 17.5rem;
+   top: 15rem;
    z-index: 2;
 }
 
@@ -551,7 +558,7 @@ li a:hover::after {
    line-height: 2.5rem;
    display: flex;
    position: relative;
-   top: 30rem;
+   top: 27rem;
    z-index: 2;
 }
 
@@ -605,7 +612,7 @@ li a:hover::after {
    line-height: 2.5rem;
    display: flex;
    position: relative;
-   top: 17.5rem;
+   top: 14.5rem;
    z-index: 2;
 }
 
@@ -700,3 +707,4 @@ footer li{
 
 
 /* mediaquery */
+
