@@ -7,8 +7,6 @@ html {
    scroll-behavior: smooth;
 }
 
-
-
 body {
    font-family: poppins, sans-serif;
    background-color: #f1f5f9;
@@ -28,46 +26,7 @@ header {
    padding: 1rem;
 }
 
-.isi-abt {
-   max-width: 100%;
-   margin: 0 auto;
-   padding: 2rem;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   height: 100vh;
-}
 
-.parag {
-   position: relative;
-   border-radius: 20px;
-   overflow: hidden;
-   margin-bottom: 1rem;
-}
-
-.parag img {
-   display: block;
-   width: 100rem;
-   height: 100%;
-   border-radius: 20px;
-   object-fit: cover;
-   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.content-about {
-   position: absolute;
-   top: 31rem;
-   left: 0;
-   right: 0;
-   margin: 2rem;
-   padding: 1rem;
-   border-radius: 20px;
-   background: rgba(255, 255, 255, 0.3);
-   backdrop-filter: blur(8px);
-   color: #000;
-   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
 
 /* Styling tombol */
 button {
@@ -77,7 +36,7 @@ button {
    border-radius: 8px;
    border:1px solid #121212;
    color: #121212;
-   font-size: 1.5rem;
+   font-size: 1rem;
    cursor: pointer;
    margin-left: 8rem;
    transition: background 0.3s ease-in-out;
