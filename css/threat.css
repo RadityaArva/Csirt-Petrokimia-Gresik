@@ -14,6 +14,7 @@ body {
    margin: 0;
    padding: 0;
    height: 100vh;
+   user-select: none;
 }
 
 body::-webkit-scrollbar {
@@ -26,7 +27,9 @@ header {
    padding: 1rem;
 }
 
-
+.parag-threat{
+   margin: 0 10rem;
+}
 
 /* Styling tombol */
 button {
@@ -38,7 +41,7 @@ button {
    color: #121212;
    font-size: 1rem;
    cursor: pointer;
-   margin-left: 8rem;
+   margin: 2rem 0 3rem 10rem;
    transition: background 0.3s ease-in-out;
    -webkit-transition: background 0.3s ease-in-out;
    -moz-transition: background 0.3s ease-in-out;

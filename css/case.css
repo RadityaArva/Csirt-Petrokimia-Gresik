@@ -1,0 +1,232 @@
+/* poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* latto */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+html {
+   scroll-behavior: smooth;
+}
+
+body {
+   font-family: poppins, sans-serif;
+   background-color: #f1f5f9;
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   height: 100vh;
+   user-select: none;
+}
+
+body::-webkit-scrollbar {
+   display: none;
+}
+
+header {
+   text-align: left;
+   margin: 0 4rem;
+   padding: 1rem;
+}
+
+.parag-threat {
+   margin: 0 10rem;
+}
+
+.parag-threat h2 {
+   color: #121212;
+   font-size: 2rem;
+   margin-bottom: 5px;
+   border-bottom: 2px solid #121212;
+   padding-bottom: 5px;
+}
+
+.columns {
+   overflow: auto;
+   margin-bottom: 20px;
+}
+
+.right-col {
+   width: 80%;
+   align-items: center;
+   justify-content: center;
+   float: left;
+   box-sizing: border-box;
+   padding: 0 10px;
+
+}
+
+.clearfix::after {
+   content: "";
+   display: table;
+   clear: both;
+}
+
+section.parag-threat h2 {
+   color: #121212;
+   margin-bottom: 5px;
+   border-bottom: 2px solid #121212;
+   padding-bottom: 5px;
+}
+
+section.parag-threat dl {
+   margin: 10px 0;
+}
+
+section.parag-threat dt {
+   margin-top: 10px;
+   font-weight: bold;
+}
+
+section.parag-threat dd {
+   margin-left: 20px;
+   margin-bottom: 5px;
+}
+
+/* Styling tombol */
+button {
+   display: inline-block;
+   margin: 0 auto;
+   padding: 0.6rem 1.2rem;
+   border-radius: 8px;
+   border: 1px solid #121212;
+   color: #121212;
+   font-size: 1rem;
+   cursor: pointer;
+   margin: 2rem 0 3rem 10rem;
+   transition: background 0.3s ease-in-out;
+   -webkit-transition: background 0.3s ease-in-out;
+   -moz-transition: background 0.3s ease-in-out;
+   -ms-transition: background 0.3s ease-in-out;
+   -o-transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+   background-color: #121212;
+   color: #f1f5f9;
+}
+
+button a {
+   text-decoration: none;
+   color: inherit;
+}
+
+/* footer */
+
+footer {
+   margin: 0 5rem;
+}
+
+.top-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px 0;
+   border-top: 1px solid #121212;
+   border-bottom: 1px solid #121212;
+}
+
+.jd-footer {
+   font-weight: 600;
+   max-width: 20rem;
+}
+
+.logo-ti {
+   width: 100px;
+   margin: 0 2rem;
+}
+
+.contact-social {
+   margin-left: 30rem;
+}
+
+.social-media {
+   display: flex;
+   align-items: center;
+}
+
+.social-media a {
+   margin: 0 20px;
+   font-size: 30px;
+   position: relative;
+   right: 20px;
+   color: #121212;
+}
+
+.list-footer {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.list-footer li {
+   margin: 15px 0;
+}
+
+li a {
+   text-decoration: none;
+   position: relative;
+   margin: 0 15px;
+   font-size: 16px;
+   color: #121212;
+   font-weight: 600;
+   transition: all 0.3s ease-in-out;
+   -webkit-transition: all 0.3s ease-in-out;
+   -moz-transition: all 0.3s ease-in-out;
+   -ms-transition: all 0.3s ease-in-out;
+   -o-transition: all 0.3s ease-in-out;
+}
+
+li a::after {
+   content: "";
+   display: block;
+   border-bottom: 0.1rem solid #121212;
+   position: absolute;
+   bottom: -0.5rem;
+   /*Adjustedtopositionthelinebelowthetext*/
+   left: 0;
+   right: 0;
+   transform: scaleX(0);
+   transform-origin: left;
+   /*Ensuresthelinegrowsfromlefttoright*/
+   transition: transform 0.3s ease-in-out;
+   -webkit-transition: transform 0.3s ease;
+   -moz-transition: transform 0.3s ease;
+   -ms-transition: transform 0.3s ease;
+   -o-transition: transform 0.3s ease;
+}
+
+li a:hover::after {
+   transform: scaleX(1);
+}
+
+.menu-footer-2 {
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   bottom: 0.8rem;
+}
+
+.menu-footer-2 li {
+   margin-bottom: 1px;
+}
+
+footer li {
+   text-decoration: none;
+   list-style: none;
+   align-items: center;
+}
+
+.privacy {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+   font-size: 15px;
+   color: #121212;
+   margin: 1rem 0;
+   padding-bottom: 1rem;
+}
+
+.a-privacy a {
+   text-decoration: none;
+   color: #121212;
+}
